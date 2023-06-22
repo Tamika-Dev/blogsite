@@ -1,0 +1,91 @@
+@import url(second.css);
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    color: brown;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    border: solid black;
+    text-align: center;
+    margin-bottom: 30px;
+    grid-column: 1 / -1;
+}
+
+
+.post {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.post:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.post h2 {
+    margin-bottom: 10px;
+}
+
+.post p {
+    margin-top: 0;
+}
+
+.post .meta {
+    color: #888;
+    font-size: 14px;
+    
+}
+
+.post .meta span {
+    margin-right: 10px;
+}
+
+.post .read-more {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.post .read-more:hover {
+    background-color: #555;
+}
+
+.post .meta img{
+    width: 200px;
+    height: 225px;
+}
+a{
+    padding: 10px;
+    margin: 10px;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(190, 226, 149);
+    color: rgba(19, 7, 7, 0.911);
+  
+  }
+
